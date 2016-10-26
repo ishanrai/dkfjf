@@ -2,7 +2,7 @@
   <block type="movement_forward" id="10" x="1" y="1">
     <next>
       <block type="comment_comment" id="23">
-        <field name="TEXT">300</field>
+        <field name="TEXT">30</field>
       </block>
     </next>
   </block>
