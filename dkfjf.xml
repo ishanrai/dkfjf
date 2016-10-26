@@ -1,6 +1,9 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="sensor_button" id="51" x="177" y="92">
-    <field name="OBJECT">UP</field>
+  <block type="movement_forward" id="81" x="161" y="114">
+    <next>
+      <block type="comment_comment" id="83">
+        <field name="TEXT">.3</field>
+      </block>
+    </next>
   </block>
-  <block type="movement_stop" id="61" x="176" y="115"></block>
 </xml>
