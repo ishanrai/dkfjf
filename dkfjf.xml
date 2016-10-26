@@ -1,5 +1,8 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="comment_comment" id="34" x="186" y="63">
     <field name="TEXT">30</field>
+    <next>
+      <block type="movement_reverse" id="44"></block>
+    </next>
   </block>
 </xml>
