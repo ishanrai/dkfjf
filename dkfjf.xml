@@ -1,12 +1,11 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="147" x="105" y="24">
-    <next>
-      <block type="comment_comment" id="127">
-        <field name="TEXT">30</field>
-        <next>
-          <block type="movement_stop" id="137"></block>
-        </next>
+  <block type="procedures_defreturn" id="152" inline="false" x="-742" y="-480">
+    <mutation></mutation>
+    <field name="NAME">functionName</field>
+    <value name="RETURN">
+      <block type="math_single" id="159" inline="true">
+        <field name="OP">ABS</field>
       </block>
-    </next>
+    </value>
   </block>
 </xml>
