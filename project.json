@@ -1,0 +1,10 @@
+{
+    "name": "dkfjf",
+    "version": "1.0.0",
+    "manifest_version": 1,
+    "project_type": "application",
+    "executable_type": "scratch",
+    "executable": "dkfjf.xml",
+    "author": "ishanrai",
+    "minimum_firmware_version": 42
+}
