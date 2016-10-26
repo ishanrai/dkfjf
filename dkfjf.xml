@@ -1,7 +1,9 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="movement_forward" id="10" x="1" y="1">
     <next>
-      <block type="robot_delay" id="12" inline="true"></block>
+      <block type="comment_comment" id="23">
+        <field name="TEXT">3000</field>
+      </block>
     </next>
   </block>
 </xml>
