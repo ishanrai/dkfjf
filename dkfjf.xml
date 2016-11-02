@@ -1,7 +1,11 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="movement_reverse" id="92" x="-536" y="-417">
     <next>
-      <block type="movement_left" id="102"></block>
+      <block type="movement_left" id="102">
+        <next>
+          <block type="movement_forward" id="112"></block>
+        </next>
+      </block>
     </next>
   </block>
 </xml>
