@@ -1,21 +1,23 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="139" x="-503" y="-343">
+  <block type="movement_forward" id="139" x="-468" y="-322">
     <next>
       <block type="comment_comment" id="141">
         <field name="TEXT">50000</field>
-      </block>
-    </next>
-  </block>
-  <block type="robot_delay" id="122" inline="true" x="-502" y="-296">
-    <value name="DELAY">
-      <block type="math_number" id="129">
-        <field name="NUM">5000</field>
-      </block>
-    </value>
-    <next>
-      <block type="movement_left" id="102">
         <next>
-          <block type="movement_forward" id="112"></block>
+          <block type="robot_delay" id="122" inline="true">
+            <value name="DELAY">
+              <block type="math_number" id="129">
+                <field name="NUM">5000</field>
+              </block>
+            </value>
+            <next>
+              <block type="movement_left" id="102">
+                <next>
+                  <block type="movement_forward" id="112"></block>
+                </next>
+              </block>
+            </next>
+          </block>
         </next>
       </block>
     </next>
