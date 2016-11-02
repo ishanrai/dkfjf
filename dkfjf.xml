@@ -8,7 +8,11 @@
           </block>
         </value>
         <next>
-          <block type="movement_left" id="102"></block>
+          <block type="movement_left" id="102">
+            <next>
+              <block type="movement_reverse" id="151"></block>
+            </next>
+          </block>
         </next>
       </block>
     </next>
