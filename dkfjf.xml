@@ -1,13 +1,3 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_reverse" id="33" x="-572" y="-454">
-    <next>
-      <block type="robot_delay" id="35" inline="true">
-        <value name="DELAY">
-          <block type="math_number" id="72">
-            <field name="NUM">10000</field>
-          </block>
-        </value>
-      </block>
-    </next>
-  </block>
+  <block type="movement_reverse" id="92" x="-536" y="-417"></block>
 </xml>
