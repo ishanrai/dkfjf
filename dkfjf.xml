@@ -1,14 +1,3 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_setmotors" id="164" inline="true" x="-625" y="-233">
-    <value name="BOTHMOVLEFT">
-      <block type="math_number" id="178">
-        <field name="NUM">5000</field>
-      </block>
-    </value>
-    <value name="BOTHMOVRIGHT">
-      <block type="math_number" id="171">
-        <field name="NUM">100</field>
-      </block>
-    </value>
-  </block>
+  <block type="movement_reverse" id="188" x="-625" y="-442"></block>
 </xml>
