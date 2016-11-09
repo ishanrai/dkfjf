@@ -5,5 +5,14 @@
         <field name="NUM">45</field>
       </block>
     </value>
+    <next>
+      <block type="movement_rightmotor" id="57" inline="true">
+        <value name="MOVRIGHT">
+          <block type="math_number" id="64">
+            <field name="NUM">500</field>
+          </block>
+        </value>
+      </block>
+    </next>
   </block>
 </xml>
