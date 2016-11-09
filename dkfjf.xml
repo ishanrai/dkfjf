@@ -1,5 +1,10 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_right" id="11" x="-666" y="-239">
+  <block type="movement_leftmotor" id="40" inline="true" x="-655" y="-214">
+    <value name="MOVLEFT">
+      <block type="math_number" id="47">
+        <field name="NUM">45</field>
+      </block>
+    </value>
     <next>
       <block type="movement_stop" id="21"></block>
     </next>
